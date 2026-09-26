@@ -3,7 +3,6 @@ public:
     vector<int> findMissingAndRepeatedValues(vector<vector<int>>& grid) {
         vector<int> ans;
         int n = grid.size();
-        int range = n*n;
         map<int, int> container;
         for(int i=0; i<n; i++){
             for(int j=0; j<n; j++){
